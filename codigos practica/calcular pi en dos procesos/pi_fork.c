@@ -6,6 +6,10 @@
 #include <sys/wait.h>
 // #include <linux/time.h>
 
+/*NOTA: Este archivo solo sirve en un sistema Unix, 
+dado que para el fork(), se usa la API POSIX para las llamadas al kernel 
+
+*/
 
 double positive_leibniz();
 double negative_leibniz();
