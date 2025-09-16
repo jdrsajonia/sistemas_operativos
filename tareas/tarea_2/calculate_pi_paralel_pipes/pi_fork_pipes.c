@@ -2,7 +2,7 @@
 #include <unistd.h> //incluye la interfaz del sistema operativo POSIX (forks)
 #include <stdlib.h> //incluye manejo de memoria como malloc
 #include <stdio.h> //manejo de archivos y control de entrada y salida
-#include <sys/wait.h>
+// #include <sys/wait.h>
 
 
 /*NOTA: Este archivo solo sirve en un sistema Unix, 
